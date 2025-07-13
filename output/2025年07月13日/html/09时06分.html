@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-13 09:06:15</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">电脑游戏 3A 游戏 Steam</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1924182194773004561" target="_blank" class="news-link">分享一款你喜欢的游戏，为什么喜欢它？</a> [19] <font color='grey'>- 09时06分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343416&amp;amp;topic_name=%E6%96%AF%E6%8B%89%E5%A4%AB%E6%B8%B8%E6%88%8F%E6%B1%A1%E8%94%91%E4%B8%AD%E5%9B%BD%E7%8E%A9%E5%AE%B6%E5%BC%80%E6%8C%82" target="_blank" class="news-link">斯拉夫游戏污蔑中国玩家开挂</a> [26] <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">金融 股市 银行 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2083391" target="_blank" class="news-link">重磅新规！金融监管总局出手：严禁“操纵业绩”、“不当展示”！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时06分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2083383" target="_blank" class="news-link">券业重大利好？券商可拿银行理财、保险产品销售牌照，究竟该如何理解？</a> [6] <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">特斯拉 比亚迪 蔚来 小鹏 理想</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343418&amp;amp;topic_name=%E5%8E%86%E6%97%B64%E5%B9%B4%E7%9A%84%E7%89%B9%E6%96%AF%E6%8B%89%E7%BB%B4%E6%9D%83%E9%97%B9%E5%89%A7%E7%BB%88%E8%90%BD%E5%B9%95" target="_blank" class="news-link">历时4年的特斯拉维权闹剧终落幕</a> [19] <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">人工智能 AI 大模型 ChatGPT 文心一言 通义千问</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1919745906594541869" target="_blank" class="news-link">如何看待网传所谓 ai 图片称「鹿角天牛价值 58 万」，且大量短视频平台网友信以为真?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">英雄联盟 LOL LPL</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343411&amp;amp;topic_name=Bin%E7%A7%B0%E8%87%AA%E5%B7%B1%E4%B9%83LPL%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%B8%8A%E5%8D%95" target="_blank" class="news-link">Bin称自己乃LPL史上第一上单</a> [16] <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">政治 政策 两会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31167051" target="_blank" class="news-link">鲁比奥的首次亚洲行：关税“敲诈”让美政策乏力、困境凸显</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">电影 票房 电影节</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/13912265642" target="_blank" class="news-link">如何评价大鹏编剧执导的电影《长安的荔枝》？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时06分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31167051" target="_blank" class="news-link">鲁比奥的首次亚洲行：关税“敲诈”让美政策乏力、困境凸显</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1924182194773004561" target="_blank" class="news-link">分享一款你喜欢的游戏，为什么喜欢它？</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
