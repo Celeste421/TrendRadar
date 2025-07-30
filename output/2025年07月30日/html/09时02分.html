@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-30 09:02:56</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特斯拉 比亚迪 蔚来 小鹏 理想</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7532486476181982770/" target="_blank" class="news-link">理想i8上市售32.18万元起</a> [7] <font color='grey'>- 09时02分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1933632286735164630" target="_blank" class="news-link">理想 i8 售价 32.18-36.98 万元，全系标配双电机四驱、激光雷达和零重力座椅，性价比如何？</a> [10] <font color='grey'>- 09时02分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">人工智能 AI 大模型 ChatGPT 文心一言 通义千问</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2099777" target="_blank" class="news-link">AI硬件升级引爆高端PCB需求 业内称供应链已现缺口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时02分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时02分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 股市 银行 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%82%A8%E6%88%B7%E5%9C%A8%E9%93%B6%E8%A1%8C%E5%AD%9835%E4%B8%87+%E5%8F%96%E6%AC%BE%E6%97%B6%E8%A2%AB%E6%B8%85%E9%9B%B6%E4%BA%86" target="_blank" class="news-link">储户在银行存35万 取款时被清零了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时02分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752105" target="_blank" class="news-link">中国股市已实现“夏季突破”，高盛认为未来应“轻指数、重个股”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时02分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">英雄联盟 LOL LPL</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343835&amp;amp;topic_name=%E9%9F%A9%E6%8F%B4coser%E8%A6%81%E6%9D%A5%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E4%B9%B1%E6%9D%80%E4%BA%86" target="_blank" class="news-link">韩援coser要来英雄联盟乱杀了</a> [24] <font color='grey'>- 09时02分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">政治 政策 两会</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2100110" target="_blank" class="news-link">财政部部长蓝佛安：用好用足更加积极的财政政策 加大财政逆周期调节力度</a> [6] <font color='grey'>- 09时02分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E5%82%A8%E6%88%B7%E5%9C%A8%E9%93%B6%E8%A1%8C%E5%AD%9835%E4%B8%87+%E5%8F%96%E6%AC%BE%E6%97%B6%E8%A2%AB%E6%B8%85%E9%9B%B6%E4%BA%86" target="_blank" class="news-link">储户在银行存35万 取款时被清零了</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2100110" target="_blank" class="news-link">财政部部长蓝佛安：用好用足更加积极的财政政策 加大财政逆周期调节力度</a> [6]</li></ul></div>
+        </body>
+        </html>
+        
